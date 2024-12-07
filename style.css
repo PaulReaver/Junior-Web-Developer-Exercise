@@ -1,0 +1,88 @@
+/* tinos-regular - latin */
+@font-face {
+    font-display: swap;
+    font-family: 'Tinos';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/fonts/tinos-v24-latin-regular.woff2') format('woff2');
+}
+
+:root {
+    --blue: #1978d9;
+    --light-grey: #d3d3d3;
+    --dark-grey: #757775;
+    --black: #100810;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+#form {
+    width: 316px;
+    border: 1px solid var(--light-grey);
+    border-radius: 10px;
+    padding: 0px 32px;
+}
+
+h1 {
+    font-family: 'Tinos', serif;
+    font-size: 2rem;
+    color: var(--blue);
+    margin-top: 26px;
+    margin-bottom: 25px;
+}
+
+label {
+    display: block;
+    font-family: 'Tinos', serif;
+    font-size: 1rem;
+    color: black;
+    margin-bottom: 8px;
+}
+
+input[type='number'] {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    border: 1px solid var(--light-grey);
+    border-radius: 6px;
+    padding: 2px 4px;
+}
+
+::placeholder {
+    font-family: Arial, sans-serif;
+    font-size: 0.81rem;
+    color: var(--dark-grey);
+    letter-spacing: 0.192px;
+}
+
+input[type='submit'] {
+    display: flex;
+    justify-self: end;
+    background: none;
+    border: 2px solid var(--blue);
+    border-radius: 8px;
+    padding: 0.12em 0.55em;
+    font-family: Arial, sans-serif;
+    color: var(--blue);
+    font-size: 0.938rem;
+    letter-spacing: 0.3px;
+    margin-bottom: 33px;
+}
