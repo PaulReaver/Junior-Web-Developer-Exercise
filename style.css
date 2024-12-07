@@ -60,7 +60,8 @@ label {
 input[type='number'] {
     display: block;
     width: 100%;
-    margin-bottom: 15px;
+    height: 25px;
+    margin-bottom: 16px;
     border: 1px solid var(--light-grey);
     border-radius: 6px;
     padding: 2px 4px;
@@ -73,16 +74,19 @@ input[type='number'] {
     letter-spacing: 0.192px;
 }
 
-input[type='submit'] {
+button {
     display: flex;
     justify-self: end;
     background: none;
     border: 2px solid var(--blue);
     border-radius: 8px;
-    padding: 0.12em 0.55em;
+    width: 70px;
+    height: 24px;
+    padding: 0.1em 0.57em;
     font-family: Arial, sans-serif;
     color: var(--blue);
     font-size: 0.938rem;
     letter-spacing: 0.3px;
-    margin-bottom: 33px;
+    margin-bottom: 32px;
+    line-height: 1.05;
 }
