@@ -12,6 +12,9 @@
     --light-grey: #d3d3d3;
     --dark-grey: #757775;
     --black: #100810;
+
+    --font-main: 'Tinos', serif;
+    --font-alt: 'Arial', sans-serif;
 }
 
 *,
@@ -27,7 +30,7 @@
 }
 
 body {
-    font-family: 'Tinos', serif;
+    font-family: var(--font-main);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -59,7 +62,7 @@ label {
 input[type='number'],
 input[type='submit'],
 ::placeholder {
-    font-family: Arial, sans-serif;
+    font-family: var(--font-alt);
 }
 
 input[type='number'] {
