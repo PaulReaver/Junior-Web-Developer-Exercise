@@ -27,6 +27,7 @@
 }
 
 body {
+    font-family: 'Tinos', serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,7 +43,6 @@ body {
 }
 
 h1 {
-    font-family: 'Tinos', serif;
     font-size: 2rem;
     color: var(--blue);
     margin-bottom: 25px;
@@ -50,7 +50,6 @@ h1 {
 
 label {
     display: block;
-    font-family: 'Tinos', serif;
     font-size: 1rem;
     color: black;
     margin-bottom: 8px;
