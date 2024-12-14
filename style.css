@@ -4,7 +4,7 @@
     font-family: 'Tinos';
     font-style: normal;
     font-weight: 400;
-    src: url('/fonts/tinos-v24-latin-regular.woff2') format('woff2');
+    src: url('./fonts/tinos-v24-latin-regular.woff2') format('woff2');
 }
 
 :root {
